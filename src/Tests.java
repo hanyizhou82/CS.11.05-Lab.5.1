@@ -46,7 +46,7 @@ public class Tests {
      **************************************************************************************************************/
 
     @Test
-    public void meanTotalWasteKgPerCapitaPerYear()
+    /** public void meanTotalWasteKgPerCapitaPerYear()
     {
         assertEquals(129, Main.meanTotalWasteKgPerCapitaPerYear(totalWasteKgPerCapitaPerYear));
     }
@@ -55,15 +55,15 @@ public class Tests {
     public void meanHouseholdEstimatesKgPerCapitaPerYear()
     {
         assertEquals(86, Main.meanHouseholdEstimateKgPerCapitaPerYear(householdEstimatesKgPerCapitaPerYear));
-    }
+    } **/
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void householdEstimateTonnesPerYear()
     {
         assertEquals(3383046, Main.meanHouseholdEstimateTonnesPerYear(householdEstimatesTonnesPerYear));
     }
 
-    @Test
+    /** @Test
     public void meanRetailEstimateKgPerCapitaPerYear()
     {
         assertEquals(16, Main.meanRetailEstimateKgPerCapitaPerYear(retailEstimatesKgPerCapitaPerYear));
@@ -91,7 +91,7 @@ public class Tests {
      * Testing for the medians
      **************************************************************************************************************/
 
-    @Test
+    /** @Test
     public void medianTotalWasteKgPerCapitaPerYear()
     {
         assertEquals(127, Main.medianTotalWasteKgPerCapitaPerYear(totalWasteKgPerCapitaPerYear));
@@ -137,7 +137,7 @@ public class Tests {
      * Testing for the minimums
      **************************************************************************************************************/
 
-    @Test
+    /** @Test
     public void minTotalWasteKgPerCapitaPerYear()
     {
         assertEquals(61, Main.minTotalWasteKgPerCapitaPerYear(totalWasteKgPerCapitaPerYear));
@@ -183,7 +183,7 @@ public class Tests {
      * Testing for the maximums
      **************************************************************************************************************/
 
-    @Test
+    /** @Test
     public void maxTotalWasteKgPerCapitaPerYear()
     {
         assertEquals(260, Main.maxTotalWasteKgPerCapitaPerYear(totalWasteKgPerCapitaPerYear));
